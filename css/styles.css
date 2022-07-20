@@ -1,0 +1,265 @@
+:root {
+  /* Font */
+  --main-weight: 400;
+  --main-fz: 16px;
+
+  /* Color */
+  --main-light: #b2b2b2;
+  --main-dark: #262626;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: var(--main-weight);
+  font-size: var(--main-fz);
+
+  letter-spacing: 0.5px;
+}
+
+/* Common styles */
+
+.link {
+  font-size: 12px;
+  line-height: 1.58;
+  color: currentColor;
+
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.link-light {
+  color: #b2b2b2;
+}
+
+.link-dark {
+  color: #262626;
+}
+
+.list {
+  list-style: none;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.desc {
+  font-size: 25px;
+  line-height: 1.28;
+  color: var(--main-light);
+
+  letter-spacing: 0.5px;
+}
+
+.text-dark,
+.text-light {
+  line-height: 1.19;
+}
+
+.text-light {
+  color: var(--main-light);
+}
+
+.text-dark {
+  color: var(--main-dark);
+}
+
+.section {
+  margin: 0 auto;
+  width: 1440px;
+  height: 800px;
+}
+
+/* Header section */
+header {
+  background: url(../images/header/woman.jpg) no-repeat;
+  background-color: #e7f066;
+}
+
+.header-top {
+  padding: 26px 26px 53px;
+}
+
+.header-container {
+  align-items: center;
+}
+
+.header-card {
+  font-size: 13px;
+  line-height: 1;
+
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+  color: var(--main-dark);
+}
+
+.header-btn {
+  margin-left: 10px;
+  padding: 8px;
+
+  font-size: 14px;
+  color: var(--main-dark);
+
+  background-color: tomato;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: rgba(185, 8, 8, 0.884);
+  background-color: var(--main-light);
+}
+
+.header-center {
+  padding-left: 1120px;
+  margin-bottom: 298px;
+}
+
+.header-desc {
+  padding-right: 45px;
+  padding-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.36;
+  color: #262626;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 32px;
+}
+
+.header-title {
+  margin-left: 40px;
+  padding-bottom: 8px;
+
+  color: var(--main-dark);
+}
+
+.header-bottom {
+  padding: 48px;
+  padding-right: 53px;
+
+  margin-right: 32px;
+  width: 376px;
+
+  background-color: #000;
+}
+
+.header-text {
+  padding-bottom: 2px;
+}
+
+.header-text,
+.header-link {
+  color: #f1f1ee;
+}
+
+/* Candles section */
+.candles {
+  background: url(../images/candles/candle.jpg) top right no-repeat;
+  background-color: #9c8554;
+}
+
+.candles-title {
+  padding: 39px 0px 601px 40px;
+
+  font-weight: var(--main-weight);
+  font-size: 15px;
+  line-height: 1.27;
+
+  text-transform: uppercase;
+
+  color: #b2b2b2;
+}
+
+.candles-box {
+  padding: 0px 25px;
+  margin-left: 15px;
+  width: 330px;
+}
+
+.candles-text {
+  padding-bottom: 20px;
+}
+
+.candles-desc {
+  margin-right: 40px;
+}
+
+/* Cards section */
+.card-left,
+.card-right {
+  padding-top: 737px;
+  padding-left: 40px;
+  width: 720px;
+  height: 800px;
+}
+.card-left {
+  background: url(../images/cards/triger.jpg) no-repeat;
+}
+
+.card-right {
+  background: url(../images/cards/soap.jpg);
+}
+
+/* About Us section */
+.about {
+  justify-content: start;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.about-img {
+  margin-left: 25px;
+  margin-right: 30px;
+}
+
+.about-box {
+  width: 310px;
+}
+
+.about-title {
+  padding-bottom: 10px;
+
+  font-weight: var(--main-weight);
+  font-size: var(--main-fz);
+  color: var(--main-dark);
+}
+
+.about-subtitle {
+  padding-bottom: 39px;
+  width: 234px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  color: var(--main-dark);
+}
+
+.about-desc {
+  padding-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--main-dark);
+}
+
+.about-text {
+  padding-bottom: 20px;
+}
